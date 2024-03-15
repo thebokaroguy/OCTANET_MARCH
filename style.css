@@ -1,0 +1,244 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo span {
+    color: #ff5500;
+}
+
+.menu-list ul {
+    list-style-type: none;
+}
+
+.menu-list ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-list ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu-list ul li a:hover {
+    color: #ff5500;
+}
+
+/* About Section Styles */
+.section-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.heading {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.sub-heading {
+    font-size: 18px;
+    color: #777;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.box span {
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #ff5500;
+    margin: 10px auto;
+}
+
+.box i {
+    font-size: 36px;
+    color: #ff5500;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Work Preview Section Styles */
+.work-preview .box-wrapper {
+    flex-direction: row-reverse;
+}
+
+.text-box {
+    flex: 1;
+}
+
+.img-box {
+    flex: 1;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Team Section Styles */
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.member {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.member span {
+    font-size: 16px;
+    color: #777;
+}
+
+.member p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Pricing Section Styles */
+.pricing-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card .price {
+    font-size: 20px;
+    color: #ff5500;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact-form {
+    margin-top: 50px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ff5500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #ff7733;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
